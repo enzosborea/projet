@@ -1,14 +1,17 @@
 {
-  "name": "projet",
+  "name": "fishcoin",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^5.5.3"
+  },
   "devDependencies": {
-    "@nomiclabs/hardhat-ethers": "^2.0.4",
-    "@nomiclabs/hardhat-waffle": "^2.0.2",
-    "chai": "^4.3.4",
-    "ethereum-waffle": "^3.4.0",
-    "ethers": "^5.5.3",
-    "hardhat": "^2.8.3"
+    "parcel": "^2.2.1"
   }
 }
